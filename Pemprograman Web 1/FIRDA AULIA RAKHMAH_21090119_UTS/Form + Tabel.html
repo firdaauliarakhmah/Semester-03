@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemprograman Web 1</title>
+  
+</head>
+<style> 
+input[type=text] {
+  width: 35%;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 4px 2px;
+  padding: 4px 10px;
+}
+
+select {
+  width: 35%;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 4px 2px;
+  color: white;
+  background-color: gray;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 4px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+</style>
+<body>
+
+<h2>MASUKAN DATA ANDA</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Nama Lengkap:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Jenis Kelamin:</label><br>
+  <select name="jk">
+    <option value="Laki-laki">Laki-laki</option>
+    <option value="Perempuan">Perempuan</option>
+</select>
+
+  <h4>Program Studi</h4>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Teknik Informatika</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Teknik Sipil</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Teknik Industri</label><br>
+
+  <input type="submit" value="Submit">
+</form> 
+
+<table>
+  <tr>
+    <th>Nama Lengkap</th>
+    <th>Jenis Kelamin</th>
+    <th>Program Studi</th>
+  </tr>
+  <tr id="myRow">
+    <td>Firda Aulia Rakhmah</td>
+    <td>Perempuan</td>
+    <td>Teknik Informatika</td>
+  </tr>
+  <tr id="myRow">
+    <td>Avriansyah Bahtiar</td>
+    <td>Laki-laki</td>
+    <td>Teknik Sipil</td>
+  </tr>
+ 
+  <tr id="myRow">
+    <td>Lulu Ndhiatun Anisa</td>
+    <td>Perempuan</td>
+    <td>Teknik Industri</td>
+  </tr>
+  <tr id="myRow">
+    <td>Bima Arya Fatah</td>
+    <td>Laki-laki</td>
+    <td>Teknik Informatika</td>
+  </tr>
+</table>
+
+<script>
+  let btnSend = document.querySelector('.btn');
+        let table = document.querySelector('.show');
+
+        btnSend.addEventListener('click', function () {
+            let name = document.querySelector('#Nama Lengkap').value;
+            let gender = document.querySelector('#Jenis Kelamin').value;
+            let date = document.querySelector('#Program Studi').value;
+            date = date.split('-').reverse().join('-');
+
+            let row = table.insertRow()
+            let cell = row.insertCell(0)
+            cell.innerHTML = Nama 
+
+            cell = row.insertCell(1)
+            cell.innerHTML = JK
+
+            cell = row.insertCell(2)
+            cell.innerHTML = PRODI
+        })
+  </script>
+   
+</body>
+</html>
+

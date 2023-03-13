@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vbook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!--HEADER-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn-icons-png.flaticon.com/128/3600/3600967.png" alt="Logo" width="30" height="30" class="me-2 ">
+                <strong>V</strong>book
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">E-Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Penulis</a>
+              </li>
+            </ul>
+            <form class="d-flex ms-auto my-4 my-lg-0" role="search">
+              <input class="form-control me-2" type="search" placeholder="Cari Novel Pilihan ..." aria-label="Search">
+              <button class="btn btn-secondary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--HEADER-->
+
+      <!--SLIDER-->
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://wallpaperaccess.com/full/5460085.jpg" class="d-block img-fluid" alt="food-banner1" height="600" width="1380">
+              </div>
+              <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWFI6kqlEZm9dBhHqT-r-JcyrpJi7ENentRA&usqp=CAU" class="d-block img-fluid" alt="food-banner2" height="600" width="1380">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+      
+      <!--SLIDER-->
+
+      <!--KATEGORI-->
+      <div class="container mt-5">
+        <div class="judul-kategori">
+            <h4 class="text-center">Rekomendasi Untuk Anda</h4>
+        </div>
+        <div class="row text-center row-container mt-2">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu-kategori">
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/128/2232/2232688.png" class="img-categori mt-4" height="50" width="50"></a>
+                    <p class="mt-2">Buku Baru</p>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu-kategori">
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/128/3145/3145765.png" class="img-categori mt-4" height="50" width="50"></a>
+                    <p class="mt-2">Buku Pilihan</p>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu">
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/5045/5045310.png" class="img-categori mt-4" height="50" width="50"></a>
+                    <p class="mt-2">E-book Premium</p>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu">
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/128/708/708881.png" class="img-categori mt-4" height="50" width="50"></a>
+                    <p class="mt-2">Story</p>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu">
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/128/3404/3404956.png" class="img-categori mt-4" height="50" width="50"></a>
+                    <p class="mt-2">Buku Lama</p>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="menu">
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/128/720/720718.png" class="img-categori mt-4" height="50" width="50"></a>
+                    <p class="mt-2">Game</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      
+      <!--KATEGORI-->
+
+      <!--PRODUK-->
+      <div class="container mt-3">
+        <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516602134i/36393774._UY882_SS882_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Laut Bercerita</h5>
+                      <div class="icon-bintang">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                      </div>
+                      <p class="card-text mt-2">Rp.80.000</p>
+                      <a href="#" class="btn btn-warning d-grid">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//98/MTA-40584175/brd-44261_original-melangkah-buku-novel_full01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Melangkah</h5>
+                      <div class="icon-bintang">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                      </div>
+                      <p class="card-text mt-2">Rp.69.700</p>
+                      <a href="#" class="btn btn-warning d-grid">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgP99qwDIu8KYbH2gjvIaBviC0fsJXvWU9bcXbfbek_kZsb2eLWbDjb8EVmS7WyRhQO8fho50SOTw0pPtZfd2zwT0SV4P0-aczaR3Rrbk-HRpc9995U5FPYtcQMmwRGUgO6pOcdG_kPDqXX0IBSF1jzH1sCfvPXpZTmRZuhYlQWt026NEqdcv_lBP4D=w300-h300-p-k-no-nu" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Home Sweet Loan</h5>
+                      <div class="icon-bintang">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                      </div>
+                      <p class="card-text mt-2">Rp.76.000</p>
+                      <a href="#" class="btn btn-warning d-grid">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="https://cf.shopee.co.id/file/06be05862501450d87e1c730b4e38227" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Detektif Canon 100</h5>
+                      <div class="icon-bintang">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                      </div>
+                      <p class="card-text mt-2">Rp.50.000</p>
+                      <a href="#" class="btn btn-warning d-grid">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/7/24/67a2f612-bdc4-49ad-821b-8a8cfd98aad2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bicara Itu Ada Seninya</h5>
+                      <div class="icon-bintang">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                      </div>
+                      <p class="card-text mt-2">Rp.57.600</p>
+                      <a href="#" class="btn btn-warning d-grid">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="https://cf.shopee.co.id/file/dd7f7a7dbe03458e053f0ab5ff3c3edf" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cantik Itu Luka</h5>
+                      <div class="icon-bintang">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                      </div>
+                      <p class="card-text mt-2">Rp.142.400</p>
+                      <a href="#" class="btn btn-warning d-grid">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+            <p></p>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/2/22/acc745dd-b563-4a21-a39e-79628422365b.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Azzammine</h5>
+                      <div class="icon-bintang">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                      </div>
+                      <p class="card-text mt-2">Rp.90.000</p>
+                      <a href="#" class="btn btn-warning d-grid">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="https://cf.shopee.co.id/file/1b95255969f22a634409dfb6d530c47f" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Keajaiban Toko Namiya</h5>
+                      <div class="icon-bintang">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                      </div>
+                      <p class="card-text mt-2">Rp.130.000</p>
+                      <a href="#" class="btn btn-warning d-grid">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="https://images.tokopedia.net/img/cache/700/product-1/2020/1/18/6869293/6869293_c19f2a36-399d-483c-9293-1f3989ebada7_487_487" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Twin Start Exorcists 04</h5>
+                      <div class="icon-bintang">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                      </div>
+                      <p class="card-text mt-2">Rp.27.000</p>
+                      <a href="#" class="btn btn-warning d-grid">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTExQTExMWExYWGBYWFxYWFhYWFhcWFhYYFxYWFhYZHikhGRsmHBYWIjIiJiosLy8vGCA1OjUuOSkuLywBCgoKDg0OGxAQGy4eHh4uLi4uLi4sLi4uLi4uLC4uLi4uLi4uLi4uLi4uLi4uLC4uLi4uLi4uLi4uLi4uLC4sLv/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAgMEBQYHAf/EAEoQAAEDAQMEDQgIBAUFAAAAAAEAAgMRBBIhBRMxUQYiMjM0QWFxcnORsbIUI1JTgZLB0QcVQoKhs9LTQ2Lh8CRUg5OiRGOjwvH/xAAaAQACAwEBAAAAAAAAAAAAAAAAAwECBAUG/8QANREAAgECAwQHBwQDAQAAAAAAAAECAxEEEiExQVGRBRMVMmGBoRQiM3Gx0fAjQnLhJJLBNP/aAAwDAQACEQMRAD8A7ihCEACEIQBGyg4iOQg0Ia4g+xZ2a0vunbu3XpFaHKW9SdB3cVm5jtD0kFWJdaH+m73imTaH+m73ih3zTTlZC2KNof6bveKZfaH+m73ilOKacVYoyPLaJPTf7x+aiTWqT1j/AHnfNSZ2qBOmRETuNPtcvrH++75ph9sl9Y/33fNeuCac1PVjLK43LbZfWv8Afd81EktsvrH+875qY6NRpYU2LQicZNXu+ZGNul9N/vH5pBtknpu953zXkzaJoNTkkYpOadrkqGZ50vd7xXj3n0ndpSrPHReuYq3Vxqi3EjEk4YknRpJPIppyDbP8tN7j/kpGxeW5aonXHOoXYMaXOFWOF8NGm7W97FtMk5OdGC2Z0loLntIddtYcGHB9RhSmB5yUupVcHaw7DUOsV23t8NPrt8Dmlqs0kbrsjHxupW68FpodBoV2P6O+AQ/6n5jlzbZi0Z5hDCwmKIua7OAtea3h5zGlV0r6PeAw/wCp+Y5KxEs1JP8AN5swSy4iUeC+xpEIQsB1wQhCABCEIAEIQgAQhCAIuU96k6Du4rNT7l3SWlynvUvQd4Ss5MNq7pIKyIxHxTbgpFPj3ptwUlLEWRNFPyBR3BWFsRKKqBM1TpHKM8pkWKmQnMTMgUwhMShNuJlEjOCYlT7wmSFdCZkV8NUkQKbdTTgmKYh01e42AkHQSnapuVuClEPYQ2SEGrSWnWCQe0KUy2TH+I/33/NRxHino2JrsZYKSZ5Ix7jVxLjrcS481SuubABSxRDlk/McuZRBdT2E8Ej53+Nyx4mV4W8Tq4Cko1G/AvUIQsR1wQhCABCEIAEIQgAQhCAIuVN5l6D/AAlZ2U7V3SWhytvMvQf4Ss3Kdo7pKGVZ4fn3pty9J+PeqeXKxBIuaCRp1exWiri5SS2k5yYeFEOVD6A7f6JBykfR/H+iuoMW5xYuUppwTb7VXi/FJ8o5FezFNo9cEy4Jwy8iSX8itexVoYkYo7mKY4JBjV1JC3AiEJtymGDlXnkw1q2ZC3TkQXNSmtUzyUa/wXnkw1qzmiqpSK8sxXrQp3kY1/gmAwKymmUdJx2i4wuobCuCR87/ABlcxYF07YVwSPnf4ys9fum3Br3vIvUIQsp0QQhCABCEIAEIQgAQhCAImV94l6t/hKzMu5d0lpcr7xN1b/CVlZXbR3SCCsj2vx71n7O9gmJfi2rtIqOPSKHuKunv+Kq5LG2pNTjjpHyTIOwmom9g5LaovOAAbYYUaA0nNXa0NSNvjgcDivPKogSbocDnDS7TdNjAbXiIuvNRgKgph1lbrP4fJeeTDl/D5K+gq7JAtMBJJbdDmNjADa3cDV1SRiCG46TjrSYbTCC3DHzVSQCNrGQ6gpXdEa66VHNmHL+C88mHKjQLskS2iI3iKVo6m13RdCGVGHE8F2NNNdKVJaInPNKNaQABc0EPa4nDTeAPNWmjFRvJxypJgHKpIuycLZFdZUDB4JF3EC/ITXCh2rmcfFyJNmtULaBwDgDFtg30GEOIB0gnSDpBrpUExDlSSwIsiMxMz0RDA7EDNVo2hAaykgrhUuNO/BOeVxVkNN3dNLoABuSBwpjRpcWnA8Y1KtuL26py3DPYni0RgRXcHMwJLSAbzTeNWmuDq0OkVGpNSTsIc2umQUeW1fmySXY66hp16dZChEpoyKcpVzJ+UJY3OvRi6CMW0pSmApQn7Ib7aqpATwlPIkOKvFNCptS1BdK2EcFZ0n+IrmV5dN2D8EZ0n+IqlbujsL3/ACL9CELKdAEIQgAQhCABCEIAEIQgCFlreJurf4SsjM/aO6QWty3webqpPCVjpTtH9IIKSESO+KrrZlCOM0JqdQx7VItk11j3cYBPyWNkcSanFLrVXDRbzodG4COJblN6Lh+aF6csx6ndg+aScsx6ndg+aoUlZ/aah1+xMJwfM0H1zHqd2D5o+uI9TuwfNUCEe01A7EwnB8y/+uI9TuwfNeHKzNTuwfNUK9U+01A7EwnB8y8OVWandg+aR9ZM1O7AqZKR7VU8ORHYeE4PmW/1kzUewfNeHKDOX8FUL1T7XU8ORXsPCcH/ALMs3WxvL+CbNoHKoQQp9sq+HIh9A4N7pf7E2KYOFQaipHtaSCO0Lx71GyfuT05fG5PPXXpSzQUnvPE4umqdacI7E2uTE3sV1TYJwRnSf4yuUEUK6tsCP+EZ0n+IquI7pOBf6j+X2NEhCFjOqCEIQAIQhAAhCEACEIQBBy3webqpPCVi5TtH9Idy2mW+DzdVJ4SsTKdo/pDuUoXMYlZeDgeOo7VjJmlpIPESOxbRZjL0V2UkfaF72nA/iEjExuk+B1+g61qsqb/cr+a/ot5HxxQxPZDZpmFrA8yPpO6Z7g241tCRQkfJSLZYYpLXHZmxsiigjNotLm1vVcDdjzhxoN17RoTxytZ4XCTPWbydkbbkAYHWl0oHPWtacXzUe1zWfyWWV7pLK+3nbggzPutwe2MN4i2oBOAvDmSkkVnWnmbTlte97dya4rUosmZIntLXTRQ0jLnZurgNrU3RVxqTSleWq9sGRJpWvdGwkMJa7EDbN0tFdJGpX1sytA1tndA+yxiKKjDaJH52Fzm3SfJmb4+mFa1qXU0ohtFlPkDfK2tijL5nMebsskx2zZJmjBgDjI43sKkAKrgnqal0lWisttmmt7+fi/IpLNkSV7pGkXXxxGbN6ZHD7LQwYgnl5E9sZybHKZHzOLI4Wl8goQ6gBrV2htKaNOCcybb4zbKmZrs5MZp5mupEBGHeTWdrzumtowuOgloGtPWy1QOstpHlcIfaLQTO4E70DXNwNpWXa0bhgS52KMiJn0jWcXdWzJWfDXVnlmyAZbM6aBhkfJKRDUmNrYQ7duDyCcA4CumoVYMlPMMswxzcmae1oLnAjdE00Aa1qZ8qWKM2eXPgNs8ZEMTXXpHGRoab8IFQ5rRSv87tFFU7H8pMaZ3ZxsV2KXNGdwjEs87i+WaQAkAVbGA3Eho46lS4plKeNxEVJ2ckuKelvuiuybkeeepjZeA0uJDW11VJxKVY8izyvfGyM3ozR9S0Bp1Ek0qrqG3WdllszYZLO8QuLibTM+DzjMGzGICsgJq4A/y8Yw8M9nlghabYwCW05y0FwMb5je3LI9LYyQyhP2Gip0qvVoZLpSpmdoq27bp8/mVVgyNI6eOKRpZnKuoaB1xu7dTSBgRU8a9y/kt8L3OMebhL7kRc9rnOoNLgDUVuuI5FdT5Ts0c1ptL7THJJIY7PE2F7XvjhJaC4fzbZzzxCiptkk0TQ2FkkcscIIs0UcjpHukeNtaLTJ9mlXUbpJJ14WyKxSPSNWVSLtpsaV9dfrYrsn7l3Tk8RT7mJrJg2runJ4ipZC69D4cfkeV6QX+VU/k/qRHMXUvo/4IzpSeJc0cul7AeCN6T/ABKa79zzF4NWq+X2NIhCFjOoCEIQAIQhAAhCEACEIQBBy3wefqpPAViJDtH847lt8s8Hm6uTwlYd24fzt7lKFzGiqnZDDVgf6Jp7D/WiuKJq2wX2ObrB7eL8VFRZotDMLV6qtGpwfpvMawEkAYk0AGslSsqWGaPNZ5r2hoc2IONQAaFwbjzJqxb7H02eILoGyqzNtEcsDRWaJjJ2DXUvbQc9xw+8Fzoq56vGYnqZwTSaet+G66MJYcmTTVMTHPDcCRTAnnUTXyYHnGldN2NxNgZHAd9ex0z+TFgIPvAfdKxuwWxsktJvioYZH0OgkPoK81a+xS4C6fSWadTT3YptcXay9SNBkK1PaHNheRxGhHYDiVBljcwlrgWuGkOBBHOCr/Leyi1eVStZJmo4nlgaGMN8t3TnlwJxNcBTBT9mhbLY4bUW3X1jBpxtkwLea9QhGVX0Jp42r7sqkUozelnr5lG3Y7azQiF5qK8Wg+1M23I88Tb8sbmNqBU6KnADStJsHynNLM5j5nPYIyQ0hgAIcwClGg6CdJ41m8uZUnmknikmc6Ns8gEdGAARyEMxDa4UHGi0bXBYnEut1WWN9u17BVnyLaJGh7InuadDhoONNeteWrJFoiaXyRuY0Uq46BU0HHrK2eTIJpMnRsglEMh0SGhoBKS4Yg6Wgj2qg2VWK1RweftZlje9jbgDRUjbipDBhVutTlVhfaFTrXD3VZ21bu/7Kez2CV7HSMY5zG1vOGgUFTX2YqMCtjsZ4BbB/LL+SsVBuBzKrjpc10sQ51p07aRJ2TBtXdN/epbgo2S9y7rHqU8LtUfhx+R4XHr/ACan8n9SO9dL2AcEb03+Jc0cF0zYDwRvTf3qa3dEYT4nl9jRoQhZTpAhCEACEIQAIQhAAhCEAQssbxN1cnhKw9No/nb3Lc5Y3ibq5PCViabR/O3uCCkxspJKWUzLIGguOAGlShbRmLYwR2jHBt9rvYXAn4q1t+yePy9k8N6RjYRG/avjrt5HUF8DW01ULLb2SFrmGpFQeLDi0+1VeZPJ2hY505xk7JnpaNXD4ilTlVmk4ppq613a/VGiyNsjZ5ZParQTG10bY2NAfIWta5pAowHEm8dHGqPIWUXQyZ1ortnm6ai8xxOB1YUTOZPJ2ozJ5O1VcKj/AGvkOpLBU5NqorNWtdGttdvyXM7Oy5yN5pebck21MBW40gmmo1VNsny8LTm4YWGOzxEO2wuukcBRtGfZYAePEniFFWZk8najMnk7QjLUt3XyKQp4RSTlWuo7E5KyLnYhlKKzyukmddbmy2oa52Jc0jBoJ4jxKltEgfJM9tbr5pXtJBFWue4g0OIwPGlZk8najMnk/BR1dS1srNPWYbr+u62N7WtdGohylYpLEyy2mRwrQuDWSO3Ml9uIYRpAVVlSDJbInOs7numFLgMbgCS4A4mIcVeNVuZP9lIcKUBpjWgqK4Ur3jtQ1NLWLERo0ZVG6dbWTvZWZqNi+WLNFZ5Yp3lmcJFAyRxulgacWNNONV+WDk9sJ8mfI+WrA1rmygUvAOqXMAwbU6VTVXqpm0tY0ywb611Yzcb22eBOyTuX9Y74KWQomSdy/rHdzVLXZofDj8jxWP8A/VU/kxpzV0jYHwVvTf3rnZC6JsE4KOm/vU1X7onDr9TyNEhCFmN4IQhAAhCEACEIQAIQhAETK+8TdW/wlYv7D/u9wW1ymfMy9W/wlYj7D/u9yCshBUHKu9P5vip5TFohD2lp0EUw0845VK4i2jHr1XJ2PR+sm95v6Uh2Qmesm95n6U7rPArlXEZyU6AB2eOL9oNqXXAQayV0Ag3aaTpwXuSZoACJhW8+MA0cS1ovlztG5qGgg8R1pf1Ez10o5asNP+Ket2xXNhr/ACiRzagOG0B22DSDd1kdqo3t26lor0GPKIM27BtS2ba5t+cMhc7Mua6lGtAuVBI+1UHBPMtFnzkWDbpvSS1YaMOautjGBqL992FdLE39Rt9bN2x/oXn1E3103bH+hRb58wuvxMbnfG5km3YHCRrhRj8WCJ1WtuxN+0W6QByqCrL6jb66btj/AEJJyIPXS9sf6FeLsVlle/0ZXqJat8ZzSf8Aors5EHrpe2P9CbdkNhIJklNK02zRppXctGoKKt5wcVvHYStCjWjUlqkyqXq0dk2JMkZeE0rTWmmuiiq25IaC4GSQlr5G1vUqGvc0YcwCwLCzbtoejfTmHy3tL0+4ZJO1f1h8LVMTVnszYwWtJNTUlxqanDT7AlVXTpRcYJPceRxVVVa06kdkm2C6LsF4MOm/vXOwui7BuCjpv70Ve6GH75oUIQsxtBCEIAEIQgAQhCABCEIAiZW3mXq3+ErFDcO+73BbXK28S9W/wlYOCWrHfc7lJSTHCUglelNSIKDU0iaqhwQFdCmxxW4aJoC0mlWlteMHRXn0FRIowKDCuHFXSnL9NBwpXDCtTQLlz6UjdqMW0t90jpU8DJWbla+6xWwuJAJFDxjURgR7DUJwMOo9inE8v90r2r3iJrr9tNX98aV2rPdD1/ov2fG/f9CHmXeiexHk7tXcpgONPZ8/Z8l7Ti5v/vZilvpStugvUt2fS3yfoQW2RxIrQDjxC8ylGGhhaMCbp08Y2p7RT7wU4O0ezurrxTVqhzjHs0EggHU7SD7CAfYlPpGs6kZS0UdqX5r4DFgqSg4rVveyVkbeT0j8FmZDt5etl/MctDsdlvQVpQ3jUcYOFQeY4exZydwzko/7svjK9JDvaHGqaUtTwhMOK8dKmnPWhIwykh4OXSNgZ/wo6b+9cyvLpX0fn/Cjpv70uv3R2FlefkaVCELKdEEIQgAQhCABCEIAEIQgCLlTeZerf4SucWY7V33O5dFyvvE3Vv8ACVzaI7R3MzuVoiau1Ep8oCQZlGc5DXK1heYcLsV65NVSg5BFx19uc0b26ToOYHdjy0fimm5YI/6e0DmMHLqmRVJqsM+jaE5OWqvwZsjj6sYpaMHZaLaA2e0ipAxEWkmgxzukkpz61P8Al7Rq/gfuqzfOySG657QS0txcAQdAOPKAVSstQIBJAPGK8fGqdlUb7+Y2WPmkmkh52Vzx2a0dsP73sSDlwD+BP/4f3Uh1oGsdqjPkGtWXRNF75cxT6SqLcvzzJf1+OOC0U1eZp2Z3+6oOyJo/gT9kX7qrnPTEj1fsbDva5c/6FvpWqv2rkzVbFZnPhle5mbvTPcGVBLQbu6IwqTUmlcXLMZRfSabrX+JaPYvO0QODnBpvnAkA6G61lcqu8/KdIMjqHXzLo0KahPKtiVjLiarnRzva2IMi8D0xeXgcteU5WdkoyLp30ecEb03965cxwXVPo/4KOm/vWfEaR8zdg9ankaVCELGdQEIQgAQhCABCEIAEIQgCJlbeZerf4SuVRSbR3MxdVyrvMvVv8JXJ7LuHczEymtpnr7UONqngE216UH1VxKFkpF5KvJp6glj4cklyaDklxU2IzFdlMVf934pi4NSdt5246PxSLPJde13oua7sIKuWWwRdGpFwalPmykCHhrXgGMxtxGGDmtdutN1sVeWvIUiTKBJJDpBwgjGlM7W59rSDjyJanJ7hjiuJDuDUvbg1Ke/KDbsjaON5sTWk4XbjbpI25qDjxDTowxS+37QMF4UjewnDS8spTbcQa7Vp0HFTmfAjKuJCuDUoMrqSu6tnilU5V9pHnj1bPHInQ7yEV3alJ+H/AFDgKUE3G0p5q1s5EdUKYCurfRzwQdN/euWsXUvo74IOsf3hZMT3To4JfqeTNQhCFiOsCEIQAIQhAAhCEACEIQBCyxvE3VSeArktldtHczF1rLXB5uqk8BXIbMfNu5mptLeZcRuH7y9D0wXry8m2M+YeD0suUe8vb6LE5h8PXpUcvXucRYMxEt+7HN8U3FJdvacWvaKa3NIHHypVta8kFjWuwxvPLac1GmqZjs9odW7G1xGNBK4n8vlUS2aj4a2s/Usbbb2vz1GvGce1wqW0bdIAGnRdL9HHTTWq9flIXQA1wIidHUEYlzY9vQniLCOxVj4rQ03XRNaaA4yOFQa4jzfIkkzD7DP90/tqihFreXlLK9WuaLcZSFQTnSc459SQTQsLABtqj7PGO3FJFvbhUSHzcjNIwzhby0JADscKkjlKp85N6DP90/tpQkm9Wz/dP7anqlwfr9inWriuaH6qIW1md1cfjlU2CyWl7S5sIcBppI446fV8qbs1nkzjzIwMoGsu1JNWlzqmrRTB4V4y95FakL029zXgOCDBJMSlhq8c1PzGF0yO2NdP+jxtLIOm/vXNaLpf0fcFHTf3pNd+6aMIrVPJmmQhCyHSBCEIAEIQgAQhCABCEIAiZX3ibq3+ArjkDto7otXYssHzE3VyeArjMB827otT6O8yYnceXksFIavWlOMou8lEpBRWiGiT0OQSm3OQCpsRmHwpGTZ7kjXcVaHmOBUdowSVW1y17F9slh2rJPRN09F9AP8AkGj2lZ161kYz9noTi5pbXU4YA9oBWXAqBhQ8Y1HjCpTdrofiI5kpcRoMTrY0tjU7RMbMyijQ7Gt6f0vgFQ5Q3+fpj8tivtje9v6XwCoMonz8/TH5UaUviGqXwfziMEpDnL15TQTzHJil0v6P+Cjpv7wuZrpmwDgo6b/glVu6Pwvf8maVCELKdAEIQgAQhCABCEIAEIQgBm172/ou7iuLDcv5mr1CdR3mTFbhtv8AfYvAhC0mNDjUl69QoZZiClxL1CllVtH26EoIQqDUaDIe9/ePcFTP3T+sk/MchCV+5mmXwkeBLQhMM6LzIW9v6XwVPa9+m6Q/LYvUJa75ofwhDE6xCEx7DOtx4/QtxsK4MOk5CEupsHUe8X6EISDWCEIQAIQhAH//2Q==" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Heartbreak Motel</h5>
+                      <div class="icon-bintang">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                      </div>
+                      <p class="card-text mt-2">Rp.99.000</p>
+                      <a href="#" class="btn btn-warning d-grid">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="https://cf.shopee.co.id/file/8a783479aa7aec448f783293a33c8da0" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">You Do You</h5>
+                      <div class="icon-bintang">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                      </div>
+                      <p class="card-text mt-2">Rp.128.000</p>
+                      <a href="#" class="btn btn-warning d-grid">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="card text-center">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Rentang Waktu</h5>
+                      <div class="icon-bintang">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                        <img src="star.png" width="15" height="15">
+                      </div>
+                      <p class="card-text mt-2">Rp.59.000</p>
+                      <a href="#" class="btn btn-warning d-grid">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+        </div>
+      </div>
+
+
+      <!--PRODUK-->
+
+      
+      
+
+    <script>
+        alert("Pilih Buku Novel Favoritmu Disini")
+        function cari(){
+        var kata = document.formcari.keyword.value;
+        var hasil = "http://www.google.com/search?q" + kata;
+        window.open(hasil, 'google', config = 'height=500 width=750 scrollbars=yes location=yes')
+    }
+        
+    </script>
+    <p></p>
+    <div class="container">
+        <form name = "formcari" onsubmit="cari()">Pilihan Buku Anda :
+            <input name ="keyword" size = "40" type="text">
+            <input type ="submit" value="cari" onclick="cari()">
+        </form>
+    </div>
+    
+
+    <!--FOOTER-->
+    <p></p>
+    <div class="container">
+        <div class="card">
+            <h3>Follow Me</h3>
+            <p>Social Media:</p>
+            <a href ="https://www.instagram.com/?hl=id">Instagram</a>
+            <p></p>
+            <a href ="https://www.facebook.com/">Facebook</a>
+            <p></p>
+            <a href ="https://www.youtube.com/">Youtube</a>
+            <p></p>
+            <a href ="https://www.twitter.com/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <p></p>
+    <div class="container"></div>  
+      <div class="footer">
+        <footer>
+          <address>
+            Penulis: <a href="https://www.youtube.com/channel/UCIKZwqHiTK3xzE21jyMDznA">Firda</a> <br/>
+            Linkedin : https://www.linkedin.com/in/firda-aulia-rakhmah-b11577249/
+          </address>
+        </footer>
+    </div>
+    <!--FOOTER-->
+  </body>
+</html>

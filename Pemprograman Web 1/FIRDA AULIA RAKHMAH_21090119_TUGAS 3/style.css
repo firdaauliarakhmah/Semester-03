@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,800&display=swap');
+
+body{
+    background-color: aliceblue;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #2d2d2d;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 990px){
+    
+}
+.form-control{
+    width: 350px;
+}
+
+.img-kategori{
+    width: 50px;
+    height: 50px;
+}
+
+.img-kategori:hover{
+    transform: scale(50.2);
+    transition: steps(0.2);
+}
+
+.row-container{
+    background-color: rgb(231, 239, 246);
+    margin: 0px;
+}
+
+.judul-kategori{
+    background-color: rgb(231, 239, 246);
+    margin-top: 5px;
+    padding: 5px 10px;
+    color: black;
+}
